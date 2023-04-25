@@ -1,0 +1,609 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+  <head>
+
+    <!-- Display -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+    <!-- Identity -->
+    <title>Beej Network</title>
+    <!-- <meta name="description" content="Shock is a creative multipurpose theme for building websites. It is based on Bootstrap 5 and other of the best and most up-to-date code libraries used by professional developers in the world."> -->
+    <meta name="author" content="Codings">
+        <link rel="shortcut icon" href="./assets/images/png/favicon.png" type="image/x-icon">
+
+  
+    <!-- Vendor Style Sheet -->
+    <link rel="stylesheet" href="assets/css/vendor/preloader.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/font-family.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/font-awesome.min.css" />  
+    <link rel="stylesheet" href="assets/css/vendor/menu-engine.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/menu-grid.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/swiper.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/dynamic-slider.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/bricklayer.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/lightbox.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/aos.min.css" />
+  
+    <!-- Main Style Sheet -->
+    <link rel="stylesheet" href="assets/css/theme.css" />
+    <link rel="stylesheet" href="assets/css/core.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  
+  </head>
+
+  <body class="shock-body">
+
+    <!-- Preloader -->
+    <div id="preloader" class="preloader white" data-delay="0" data-limit="3000">
+      <img src="assets/images/png/logo.png" class="emblem" alt="Emblem" />
+    </div>
+  <!-- Header -->
+  <header id="header" class="shock-header">    
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg absolute scheme-4">
+      <div class="container-fluid">
+        <!-- Brand -->
+        <a class="navbar-brand" href="/">
+          <!-- <div class="site-title">Site Title</div> -->
+                      <img src="assets/images/png/logo_small.png" data-logo-mobile="assets/images/png/logo_small.png" alt="Shock Theme" class="logo" />
+
+          <!-- <span class="logo-after-text">SHOCK</span> -->
+        </a>
+        <!-- Menu toggle -->
+        <div id="menu-toggle" class="menu-toggle is-inactive  scheme-2 tertiary">
+          <div class="menu-toggle-icon">
+            <div class="menu-toggle-container">
+              <span class="menu-toggle-line-top"></span>
+              <span class="menu-toggle-line-middle"></span>
+              <span class="menu-toggle-line-bottom"></span>
+            </div>
+          </div>
+          <div class="menu-toggle-circle">
+            <svg class="menu-toggle-menu-toggle-svg-circle">
+              <path class="menu-toggle-path-circle" fill="none" stroke-miterlimit="10" stroke-width="4" d="M 34 2 C 16.3 2 2 16.3 2 34 s 14.3 32 32 32 s 32 -14.3 32 -32 S 51.7 2 34 2" />
+            </svg>
+          </div>
+          <svg width="0" height="0">
+            <mask id="menu-toggle-mask">
+              <path class="path-mask" fill="none" stroke-miterlimit="10" stroke-width="4" d="M 34 2 c 11.6 0 21.8 6.2 27.4 15.5 c 2.9 4.8 5 16.5 -9.4 16.5 h -4" />
+            </mask>
+          </svg>
+          <div class="menu-toggle-path">
+            <div class="path-animation">
+              <div class="path-rotation"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Menu grid -->
+        <nav id="menu-grid" class="menu-grid scheme-1 tertiary">
+          <div class="menu-grid-item item-1" data-direction="bt">
+            <div class="menu-grid-item-inner">
+              
+              <div class="menu-grid-label top">
+                <span class="label-vertical">
+                  <span class="label-line primary"></span>
+                                      <!-- <span class="label-text gray">SINCE 2022</span> -->
+
+                </span>
+              </div>
+              
+              <div class="menu-grid-label bottom">
+                <span class="label-vertical">
+                  <span class="label-line primary"></span>
+                  <span class="label-text primary">BEEJ NETWORK</span>
+                </span>
+              </div>
+              <!-- Main menu -->
+              <div class="menu-grid-main">
+                <a href="./portfolio.html" class="menu-grid-main-item menu-item">Portfolio</a>
+                <a href="./startups.html" class="menu-grid-main-item menu-item">Startups</a>
+                <a href="./investor.html" class="menu-grid-main-item menu-item">Investors</a>
+                <div class="dropdown-custom menu-grid-main-item">
+                  <a class="menu-grid-main-item ">Join as<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 512 512" class="image-icon dropdown-icon"><title>Ionic Icons - Shock Theme 1.0</title><polyline points="112 184 256 328 400 184" style="stroke:inherit;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"></polyline></svg></a>
+                  <div class="dropdown-custom-content">
+                    <a href="./becomeamember.html" class="menu-grid-main-item menu-item">Investor</a>
+                    <a href="./applyforfunding.html" class="menu-grid-main-item menu-item">Founder</a>
+                  </div>
+                </div>
+              </div> 
+              <!-- Form -->
+              <div class="menu-grid-search focus-trigger">
+                <div class="form-area scheme-2 white">
+                  <!-- <form class="form-fields needs-validation" novalidate="novalidate">
+                    <div class="form-row row has-icon">
+                      <div class="form-col form-floating">
+                        <button class="button overlay-button"><i class="fa-solid fa-magnifying-glass overlay-icon"></i></button>
+                        <input id="InputSearchMenu" class="form-control focus-trigger-field" placeholder="Type keywords..." required="required">
+                        <label for="InputSearchMenu" class="form-label">Type keywords...</label>
+                      </div>
+                    </div>
+                  </form> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="menu-grid-item item-2" data-direction="lr">
+            <div class="menu-grid-item-inner">
+              <a href="javascript:void(0)" class="menu-grid-item-image">
+                <img src="assets/images/jpg/c-22.jpg" alt="Image name" class="image" />
+                <span class="title">View Portfolio</span>
+              </a>
+            </div>
+          </div> -->
+          <div class="menu-grid-item item-3" style="--color-1:#000" data-direction="bt">
+            <div class="menu-grid-item-inner">
+              
+              <div class="menu-grid-label">
+                <span class="label-horizontal">
+                  <span class="label-line primary"></span>
+                  <span class="label-text gray">TERMS AND CONDITIONS</span>
+                </span>
+              </div>
+              <!-- Links -->
+              <div class="menu-grid-minor">
+                <a href="./about_us.html" class="menu-grid-minor-item menu-item"><span class="menu-grid-minor-item-inner">About Us</span></a>
+                  <a href="./contact_us.html" class="menu-grid-minor-item menu-item"><span class="menu-grid-minor-item-inner">Contact Us</span></a>
+                  <a href="./terms_of_use.html" class="menu-grid-minor-item menu-item"><span class="menu-grid-minor-item-inner">Terms & Conditions</span></a>
+                <a href="./privacy_policy.html" class="menu-grid-minor-item menu-item"><span class="menu-grid-minor-item-inner">Privacy Policy</span></a>
+                <a href="./refund_policy.html" class="menu-grid-minor-item menu-item"><span class="menu-grid-minor-item-inner">Refund Policy</span></a>
+                <!-- <a href="javascript:void(0)" class="menu-grid-minor-item menu-item"><span class="menu-grid-minor-item-inner">Brand Creation</span></a> -->
+                <!-- <a href="javascript:void(0)" class="menu-grid-minor-item menu-item"><span class="menu-grid-minor-item-inner">Social Media</span></a> -->
+                <!-- <a href="javascript:void(0)" class="menu-grid-minor-item menu-item"><span class="menu-grid-minor-item-inner">Marketing Digital</span></a> -->
+              </div>
+            </div>
+          </div>
+          <!-- <div class="menu-grid-item item-4" data-direction="rl">
+            <div class="menu-grid-item-inner">                
+              <a href="javascript:void(0)" class="menu-grid-item-image">
+                <img src="assets/images/jpg/c-16.jpg" alt="Image name" class="image" />
+                <span class="title">View Routes</span>                
+              </a>
+            </div>
+          </div> -->
+          <!-- <div class="menu-grid-item item-4" data-direction="lr">
+            <div class="menu-grid-item-inner">
+              <a href="javascript:void(0)" class="menu-grid-item-image">
+                <img src="assets/images/jpg/c-22.jpg" alt="Image name" class="image" />
+                <span class="title">View Portfolio</span>
+              </a>
+            </div>
+          </div> -->
+          <div class="menu-grid-item item-5" data-direction="tb">
+            <div class="menu-grid-item-inner">
+              <!-- Contacts -->
+              <div class="menu-grid-minor">
+                <a href="tel:+91 9500121167" class="menu-grid-minor-item"><span class="menu-grid-minor-item-inner"><i class="fas fa-mobile-alt icon"></i>(+91) 95001 21167</span></a>
+                <!-- <a href="tel:+19812345678" class="menu-grid-minor-item"><span class="menu-grid-minor-item-inner"><i class="fas fa-phone-alt icon"></i>+1 (98) 1234 5678</span></a> -->
+                <a href="mailto:invest@beejnetwork.com" class="menu-grid-minor-item"><span class="menu-grid-minor-item-inner"><i class="fas fa-envelope icon"></i>invest@beejnetwork.com</span></a>
+                <a href="mailto:funding@beejnetwork.com" class="menu-grid-minor-item"><span class="menu-grid-minor-item-inner"><i class="fas fa-envelope icon"></i>funding@beejnetwork.com</span></a>
+                <div class="menu-grid-icons">
+                  <!-- <a href="javascript:void(0)" class="menu-grid-minor-item"><span class="menu-grid-minor-item-inner"><i class="fab fa-facebook-f icon"></i></span></a> -->
+                  <!-- <a href="javascript:void(0)" class="menu-grid-minor-item"><span class="menu-grid-minor-item-inner"><i class="fab fa-twitter icon"></i></span></a> -->
+                  <a target="_blank" href="https://www.linkedin.com/company/beejnetwork/" class="menu-grid-minor-item"><span class="blue text-color menu-grid-minor-item-inner"><i class="fab fa-linkedin-in icon"></i></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </nav>   
+  </header>
+
+    <!-- Main -->
+    <main id="main" class="shock-main bg-color black">
+
+      <!-- Banner / Collapse / Form -->
+      <section class="shock-section has-overlay pb-5 pt-5">
+        <div class="banner">
+          <!-- <div class="content-wrapper text-center">
+            <div class="container">
+              <div class="extended-intro max-w-75 mb-35">
+                <h1 class="title white">
+                  <span class="text-1 text-style-2">Request an expert</span>
+                  <span class="text-2 text-style-4 text-italic">building a better world.</span>
+                </h1>
+              </div>
+            </div>
+          </div> -->
+          <!-- Image -->
+          <div class="image-wrapper">
+            <!-- <img src="assets/images/jpg/a-g" class="image vh-65-sm vh-50 fit-cover" alt="This is an example description for this item." /> -->
+            <img src="assets/images/jpg/a-g" class="image vh-35-sm vh-20 fit-cover" alt="This is an example description for this item." />
+          </div>
+          <!-- Overlay -->
+          <div class="overlay black-50"></div>
+        </div>
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-12 col-md-6 align-v-start order-2 order-md-1 ">
+              <h1 class="title text-center">
+                <span class="text-1 text-style-2 white text-color">Request an expert</span>
+                <!-- <span class="text-2 text-style-4 text-italic">building a better world.</span> -->
+              </h1>
+              <!-- Collapse -->
+              <div class="collapsible mt-35">
+                <div class="collapse-group">
+                  <a href="#collapse-1" class="collapse-toggle parent" aria-expanded="true" aria-controls="collapse-1" data-bs-toggle="collapse">
+                    <div class="collapse-button rounded gray-25">
+                      <span class="arrow-button cross scheme-1 primary">
+                        <span class="arrow">
+                          <span class="item"></span>
+                          <span class="item"></span>
+                        </span>
+                        <span class="line"></span>
+                      </span>
+                    </div>
+                    <h3 class="title text-style-11 white">
+                      Why is this question already showing the answer?
+                    </h3>
+                  </a>
+                  <div id="collapse-1" class="collapse-content collapse show">
+                    <p>Because a class called <mark class="animated-underline primary text-white">show</mark> was set in the html and thus it stays open when loading the page.</p>
+                    <p>This is certainly useful to keep the most important question and answer highlighted.</p>
+                  </div>
+                </div>
+                <div class="collapse-group">
+                  <a href="#collapse-2" class="collapse-toggle parent" aria-expanded="false" aria-controls="collapse-2" data-bs-toggle="collapse">
+                    <div class="collapse-button rounded gray-25">
+                      <span class="arrow-button cross scheme-1 primary">
+                        <span class="arrow">
+                          <span class="item"></span>
+                          <span class="item"></span>
+                        </span>
+                        <span class="line"></span>
+                      </span>
+                    </div>
+                    <h3 class="title text-style-11 white">
+                      How to make a word have this highlight color?
+                    </h3>
+                  </a>
+                  <div id="collapse-2" class="collapse-content collapse">
+                    <p>To get this highlighted text, <mark class="animated-underline primary text-white">just use the html mark tag</mark>, and use a color class. 😃</p>
+                    <p>Also works well with <mark class="animated-underline primary-50 text-white">other colors</mark> by adding a color class to the element, but use it sparingly or it may become exaggerated.</p>
+                  </div>
+                </div>
+                <div class="collapse-group">
+                  <a href="#collapse-3" class="collapse-toggle parent" aria-expanded="false" aria-controls="collapse-3" data-bs-toggle="collapse">
+                    <div class="collapse-button rounded gray-25">
+                      <span class="arrow-button cross scheme-1 primary">
+                        <span class="arrow">
+                          <span class="item"></span>
+                          <span class="item"></span>
+                        </span>
+                        <span class="line"></span>
+                      </span>
+                    </div>
+                    <h3 class="title text-style-11 white">
+                      This theme is very beautiful, but is it easy to use?
+                    </h3>
+                  </a>
+                  <div id="collapse-3" class="collapse-content collapse">
+                    <p>Yea! 😍</p>
+                    <p>This theme was made to make it easier to build any type of website. Also the item support is very friendly and professional.</p>
+                    <img src="assets/images/gif/gif.gif" alt="Image name" class="image max-w-50" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 order-1 order-md-2 mt--40-sm">
+              <div class="holder p-25 shadow rounded bg-color white" data-lax="inertia-top">
+                <!-- Intro -->
+                <div class="basic-intro mb-15">
+                  <h2 class="title black">
+                    <span class="text-1 text-style-7">How can we </span>
+                    <span class="text-2 text-style-8 text-italic typed-text"></span>                  
+                  </h2>
+                  <!-- Srings -->
+                  <div id="typed-strings">
+                    <span>talk to you?</span>
+                    <span>help your company?</span>
+                    <span>show solutions?</span>
+                  </div>  
+                </div>
+                <!-- Form -->
+                <div class="form-area scheme-1 primary">
+                  <form id="contact-form" class="form-fields needs-validation ajax-form" novalidate="novalidate">
+                    <div class="form-row row">
+                      <div class="form-col form-floating col-12 col-md-6">
+                        <input type="text" name="Name" id="InputFloatingName" class="form-control" placeholder="Name" required="required">
+                        <label for="InputFloatingName" class="form-label">Name</label>
+                        <div class="invalid-feedback">Please enter your name.</div>
+                        <div class="valid-feedback">Looks good.</div>
+                      </div>
+                      <div class="form-col form-floating col-12 col-md-6">
+                        <input type="email" name="Email" id="InputFloatingEmail" class="form-control" placeholder="name@example.com" required="required">
+                        <label for="InputFloatingEmail" class="form-label">Email</label>
+                        <div class="invalid-feedback">Please enter a valid email address.</div>
+                        <div class="valid-feedback">Looks good.</div>
+                      </div>
+                    </div>
+                    <div class="form-row row">
+                        <div class="form-col form-floating col-12 col-md-6">
+                            <input type="phone" name="Phone" id="InputFloatingPhone" class="form-control" placeholder="99999 99999" required="required">
+                            <label for="InputFloatingPhone" class="form-label">Phone</label>
+                            <div class="invalid-feedback">Please enter a valid Phone number.</div>
+                            <div class="valid-feedback">Looks good.</div>
+                          </div>
+                    </div>
+                    <!-- <div class="form-row row">
+                      <div class="form-col col-12">
+                        <div class="form-check">
+                          <input type="radio" name="info" id="InputRadio1" class="form-check-input form-radio" checked="checked" value="I found this site by searching the internet." required="required">
+                          <label class="form-label form-check-label" for="InputRadio1">
+                            I found this site by searching the internet.
+                          </label>
+                        </div>
+                      </div>
+                      <div class="form-col col-12">
+                        <div class="form-check">
+                          <input type="radio" name="info" id="InputRadio2" class="form-check-input form-radio primary" value="A friend recommended this site to me." required="required">
+                          <label class="form-label form-check-label" for="InputRadio2">
+                            A friend recommended this site to me.
+                          </label>
+                        </div>
+                      </div>
+                    </div> -->
+                    <div class="form-row row">
+                      <div class="form-col form-floating col-12">
+                        <button class="button double-edge transparent primary-hover">
+                          <span class="button-text black white-hover">Send message</span>
+                          <i class="fa-solid fa-arrow-right button-icon black white-hover"></i>
+                          <span class="overlay gray-50 "></span>
+                        </button>
+                      </div>
+                    </div>
+                    <input type="hidden" name="subject" value="Message sent through the contact form.">
+                    <span class="form-alert success">Your message was sent successful. Thanks.</span>
+                    <span class="form-alert error">Sorry. We were unable to send your message.</span>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+  
+      <section class="shock-section pt-6 pb-6 bg-color gray-10">
+        <div class="container">
+          <div class="row g-2">
+            <!-- Arrow button -->
+            <div class="col-12 col-md-6">
+              <div class="card has-icon hover-up parent">
+                <div class="card-body rounded-3 small-shadow bg-color white text-center">
+                  <h3 class="title text-style-11 black">For Investors</h3>
+                  <a href="tel:+919500121167"><p class="description mt-1">+91 9500121167</p></a>
+                  <a href="mailto:invest@beejnetwork.com"><p class="description">invest@beejnetwork.com</p></a>
+                  <p class="description">#09, Flat #01, VIGNESHWAR APT., T.NAGAR, CHENNAI, IND-600017</p>
+                 
+                </div>
+                <!-- Link -->
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="card has-icon hover-up parent">
+                <div class="card-body rounded-3 small-shadow bg-color white text-center">
+                  <h3 class="title text-style-11 black">For Founders</h3>
+                  <a href="tel:+919500121167"><p class="description mt-1">+91 9500121167</p></a>
+                  <a href="mailto:funding@beejnetwork.com"><p class="description">funding@beejnetwork.com</p></a>
+                  <p class="description">#09, Flat #01, VIGNESHWAR APT., T.NAGAR, CHENNAI, IND-600017</p>
+                 
+                </div>
+                <!-- Link -->
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+   
+      <section class="shock-section">
+        <!-- <div id="map-canvas-6" class="vh-50"></div> -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15546.701078898051!2d80.2320942!3d13.0563301!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52679bcf45e8dd%3A0x859c5bfc00414dbe!2sSunil%20Sethia%20%26%20Associates!5e0!3m2!1sen!2sin!4v1667820310735!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+
+    </main>
+
+    <!-- Scroll to Top -->
+    <div class="side-widget to-right invert-color mix-blend-difference">
+      <div class="item align-v-bottom">
+        <a href="#" class="link hover-up">
+          <span class="widget float-icon">
+            <i class="fa-solid fa-arrow-up-long icon"></i>
+          </span>
+        </a>
+      </div>
+    </div>
+
+  
+    <!-- Side Widget -->
+    <div class="side-widget to-left invert-color mix-blend-difference d-only-desktop">
+        <div class="item">
+          <span class="widget label-icons">
+            <!-- <a href="javascript:void(0)" class="link black black-hover"><i class="icon fab fa-facebook-f"></i></a> -->
+            <!-- <a href="javascript:void(0)" class="link black black-hover"><i class="icon fab fa-twitter"></i></a> -->
+            <a target="_blank" href="https://www.linkedin.com/company/beejnetwork/" class="link black black-hover"><i class="icon fab fa-linkedin-in"></i></a>
+            <span class="label-line black"></span>
+          </span>
+        </div>
+      </div>
+  
+      <!-- Side Widget -->
+      <div class="side-widget to-right invert-color mix-blend-difference d-only-desktop">
+        <div class="item">
+          <a href="#" class="link black black-hover hover-up">
+            <span class="widget label-vertical">
+              <span class="label-text black"><i class="fa-solid fa-arrow-right-long icon"></i>Scroll to top</span>
+            </span>
+          </a>
+        </div>
+      </div>
+  
+      <!-- Footer -->
+   <footer id="footer" class="shock-footer scheme-1 tertiary" data-bg-color="#1e1e24">
+    <!-- <div class="top-bar" data-bg-color="#1e1e24"> -->
+    <div class="top-bar" data-bg-color="#f2f2eb">
+      <div class="footer-content focus-trigger">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-2 align-h-left align-v-center order-2 order-lg-1">
+              <div class="footer-item text-center">
+                <!-- Brand -->
+                <a href="/" class="footer-brand ">
+                  <!-- <div class="site-title">Site Title</div> -->
+                  <img src="assets/images/png/logo.png" alt="Shock Theme" class="logo" />
+                  <!-- <span class="logo-after-text">Beej Network</span> -->
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-lg-7 order-1 order-lg-2">
+              <!-- <div class="footer-item text-center">
+                <a href="/" class="footer-brand ">
+                  <img src="assets/images/png/logo.png" alt="Shock Theme" class="logo" />
+                </a>
+              </div> -->
+            </div>
+            <div class="col-12 col-lg-2 align-h-left align-v-center order-3">
+              <div class="footer-item text-center">
+                <!-- Links list -->
+                <ul class="nav-list list-unstyled">
+                  <li class="nav-item">
+                    <a href="tel:+91 9500121167" class="nav-link has-icon">
+                      <img class="image-icon" src="assets/svg/call-sharp.svg" alt="Icon name" data-shock-icon="32" />  
+                      <span class="text fw-bold">(+91) 95001 21167</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-content focus-trigger">
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="footer-item ">
+              <h6 class="title">Get In Touch
+              </h6>
+              <!-- Links list -->
+              <ul class="nav-list list-unstyled">
+                <li class="nav-item">
+                  <a href="/" class="nav-link">
+                    <span class="text">www.beejnetwork.com</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="mailto:invest@beejnetwork.com" class="nav-link">
+                    <span class="text">invest@beejnetwork.com</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="tel:+919500121167" class="nav-link">
+                    <span class="text">+91 9500121167</span>
+                  </a>
+                </li>                  
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+           
+            <div class="footer-item text-center">
+              <h6 class="title">Navigation</h6>
+              <!-- Links list -->
+              <ul class="nav-list list-unstyled">
+                <li class="nav-item">
+                  <a href="./portfolio.html" class="nav-link">
+                    <span class="text">Portfolio</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="./startups.html" class="nav-link">
+                    <span class="text">Apply Now</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="./investor.html" class="nav-link">
+                    <span class="text">Investors</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="./about_us.html" class="nav-link">
+                    <span class="text">About Us</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="./contact_us.html" class="nav-link">
+                    <span class="text">Contact Us</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="footer-item text-center">
+              <h6 class="title">Terms & Conditions</h6>
+              <!-- Links list -->
+              <ul class="nav-list list-unstyled">
+                <li class="nav-item">
+                  <a href="./terms_of_use.html" class="nav-link">
+                    <span class="text">Terms Of Use</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="./privacy_policy.html" class="nav-link">
+                    <span class="text">Privacy Policy</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="./refund_policy.html" class="nav-link">
+                    <span class="text">Refund Policy</span>
+                  </a>
+                </li>
+               
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-bar" data-bg-color="#1e1e24">
+      <div class="text">Beej Network © 2023 - All rights reserved. This website is developed and maintained by <a href="https://rohcodes.com" class="link gray primary-hover"><u>Rohcodes</u></a>.</div>
+    </div>
+  </footer>
+    <!-- Google Maps API: https://developers.google.com/maps/get-started -->
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6s7QK-BWbYB_brkdZU-C1Ex_lwj8SBCw"></script> -->
+
+    <!-- Vendor JavaScript -->
+    <script src="assets/js/vendor/jquery.min.js"></script>
+    <script src="assets/js/vendor/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/vendor/preloader.min.js"></script>
+    <script src="assets/js/vendor/inview.min.js"></script>
+    <script src="assets/js/vendor/menu-engine.min.js"></script>
+    <script src="assets/js/vendor/menu-grid.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/swiper.min.js"></script>
+    <script src="assets/js/vendor/anime.min.js"></script>
+    <script src="assets/js/vendor/dynamic-slider.min.js"></script>
+    <script src="assets/js/vendor/shuffle.min.js"></script>
+    <script src="assets/js/vendor/stickybits.min.js"></script>
+    <script src="assets/js/vendor/bricklayer.min.js"></script>
+    <script src="assets/js/vendor/lightbox.min.js"></script>
+    <script src="assets/js/vendor/typed.min.js"></script>
+    <script src="assets/js/vendor/progressbar.min.js"></script>
+    <script src="assets/js/vendor/map-styles.min.js"></script>
+    <script src="assets/js/vendor/.min.js"></script>
+    <script src="assets/js/vendor/gsap.min.js"></script>
+    <script src="assets/js/vendor/aos.min.js"></script>
+    <script src="assets/js/vendor/lax.min.js"></script>
+    <script src="assets/js/vendor/cursor-effect.min.js"></script>
+
+    <!-- Main JavaScript -->
+    <script src="assets/js/main.js"></script>
+
+  </body>
+</html>

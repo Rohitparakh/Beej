@@ -1,0 +1,849 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+  <head>
+
+    <!-- Display -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+    <!-- Identity -->
+    <title>Beej Network</title>
+    <link rel="shortcut icon" href="./assets/images/png/favicon.png" type="image/x-icon">
+  
+    <!-- Vendor Style Sheet -->
+    <link rel="stylesheet" href="assets/css/vendor/preloader.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/font-family.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/font-awesome.min.css" />  
+    <link rel="stylesheet" href="assets/css/vendor/menu-engine.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/menu-grid.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/swiper.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/dynamic-slider.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/bricklayer.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/lightbox.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/aos.min.css" />
+  
+    <!-- Main Style Sheet -->
+    <link rel="stylesheet" href="assets/css/theme.css" />
+    <link rel="stylesheet" href="assets/css/core.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  
+  </head>
+
+  <body class="shock-body">
+
+    <!-- Preloader -->
+    <div id="preloader" class="preloader white" data-delay="0" data-limit="3000">
+      <img src="assets/images/png/logo.png" class="emblem" alt="Emblem" />
+    </div>
+
+    <!-- Popup Bar -->
+    <!-- <div id="popup-bar" class="popup-bar bg-gradient scheme-2 shadow d-none">
+      <p class="description white-85">Flash Sale! The best time to buy more licenses.</p>
+      <a href="https://codings.dev/?buy=shock-html" target="_blank" class="button simple">
+        <span class="button-text white white-hover"><mark class="animated-underline secondary active">Save Now</mark></span>
+        <i class="fa-solid fa-arrow-right button-icon white white-hover"></i>
+      </a>
+      <button id="popup-bar-dismiss" class="button close-button">
+        <i class="fa-solid fa-xmark button-icon white secondary-hover"></i>
+      </button>
+    </div> -->
+
+   <!-- Header -->
+   <header id="header" class="shock-header">    
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg absolute scheme-4">
+      <div class="container-fluid">
+        <!-- Brand -->
+        <a class="navbar-brand" href="/">
+          <!-- <div class="site-title">Site Title</div> -->
+                      <img src="assets/images/png/logo_small.png" data-logo-mobile="assets/images/png/logo_small.png" alt="Shock Theme" class="logo" />
+
+          <!-- <span class="logo-after-text">SHOCK</span> -->
+        </a>
+        <!-- Menu toggle -->
+        <div id="menu-toggle" class="menu-toggle is-inactive  scheme-2 tertiary">
+          <div class="menu-toggle-icon">
+            <div class="menu-toggle-container">
+              <span class="menu-toggle-line-top"></span>
+              <span class="menu-toggle-line-middle"></span>
+              <span class="menu-toggle-line-bottom"></span>
+            </div>
+          </div>
+          <div class="menu-toggle-circle">
+            <svg class="menu-toggle-menu-toggle-svg-circle">
+              <path class="menu-toggle-path-circle" fill="none" stroke-miterlimit="10" stroke-width="4" d="M 34 2 C 16.3 2 2 16.3 2 34 s 14.3 32 32 32 s 32 -14.3 32 -32 S 51.7 2 34 2" />
+            </svg>
+          </div>
+          <svg width="0" height="0">
+            <mask id="menu-toggle-mask">
+              <path class="path-mask" fill="none" stroke-miterlimit="10" stroke-width="4" d="M 34 2 c 11.6 0 21.8 6.2 27.4 15.5 c 2.9 4.8 5 16.5 -9.4 16.5 h -4" />
+            </mask>
+          </svg>
+          <div class="menu-toggle-path">
+            <div class="path-animation">
+              <div class="path-rotation"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Menu grid -->
+        <nav id="menu-grid" class="menu-grid scheme-1 tertiary">
+          <div class="menu-grid-item item-1" data-direction="bt">
+            <div class="menu-grid-item-inner">
+              
+              <div class="menu-grid-label top">
+                <span class="label-vertical">
+                  <span class="label-line primary"></span>
+                                      <!-- <span class="label-text gray">SINCE 2022</span> -->
+
+                </span>
+              </div>
+              
+              <div class="menu-grid-label bottom">
+                <span class="label-vertical">
+                  <span class="label-line primary"></span>
+                  <span class="label-text primary">BEEJ NETWORK</span>
+                </span>
+              </div>
+              <!-- Main menu -->
+              <div class="menu-grid-main">
+                <a href="./portfolio.html" class="menu-grid-main-item menu-item">Portfolio</a>
+                <a href="./startups.html" class="menu-grid-main-item menu-item">Startups</a>
+                <a href="./investor.html" class="menu-grid-main-item menu-item">Investors</a>
+                <div class="dropdown-custom menu-grid-main-item">
+                  <a class="menu-grid-main-item ">Join as<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 512 512" class="image-icon dropdown-icon"><title>Ionic Icons - Shock Theme 1.0</title><polyline points="112 184 256 328 400 184" style="stroke:inherit;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"></polyline></svg></a>
+                  <div class="dropdown-custom-content">
+                    <a href="./becomeamember.html" class="menu-grid-main-item menu-item">Investor</a>
+                    <a href="./applyforfunding.html" class="menu-grid-main-item menu-item">Founder</a>
+                  </div>
+                </div>
+              </div> 
+              <!-- Form -->
+              <div class="menu-grid-search focus-trigger">
+                <div class="form-area scheme-2 white">
+                  <!-- <form class="form-fields needs-validation" novalidate="novalidate">
+                    <div class="form-row row has-icon">
+                      <div class="form-col form-floating">
+                        <button class="button overlay-button"><i class="fa-solid fa-magnifying-glass overlay-icon"></i></button>
+                        <input id="InputSearchMenu" class="form-control focus-trigger-field" placeholder="Type keywords..." required="required">
+                        <label for="InputSearchMenu" class="form-label">Type keywords...</label>
+                      </div>
+                    </div>
+                  </form> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="menu-grid-item item-2" data-direction="lr">
+            <div class="menu-grid-item-inner">
+              <a href="javascript:void(0)" class="menu-grid-item-image">
+                <img src="assets/images/jpg/c-22.jpg" alt="Image name" class="image" />
+                <span class="title">View Portfolio</span>
+              </a>
+            </div>
+          </div> -->
+          <div class="menu-grid-item item-3" style="--color-1:#000" data-direction="bt">
+            <div class="menu-grid-item-inner">
+              
+              <div class="menu-grid-label">
+                <span class="label-horizontal">
+                  <span class="label-line primary"></span>
+                  <span class="label-text gray">TERMS AND CONDITIONS</span>
+                </span>
+              </div>
+              <!-- Links -->
+              <div class="menu-grid-minor">
+                <a href="./about_us.html" class="menu-grid-minor-item menu-item"><span class="menu-grid-minor-item-inner">About Us</span></a>
+                  <a href="./contact_us.html" class="menu-grid-minor-item menu-item"><span class="menu-grid-minor-item-inner">Contact Us</span></a>
+                  <a href="./terms_of_use.html" class="menu-grid-minor-item menu-item"><span class="menu-grid-minor-item-inner">Terms & Conditions</span></a>
+                <a href="./privacy_policy.html" class="menu-grid-minor-item menu-item"><span class="menu-grid-minor-item-inner">Privacy Policy</span></a>
+                <a href="./refund_policy.html" class="menu-grid-minor-item menu-item"><span class="menu-grid-minor-item-inner">Refund Policy</span></a>
+                <!-- <a href="javascript:void(0)" class="menu-grid-minor-item menu-item"><span class="menu-grid-minor-item-inner">Brand Creation</span></a> -->
+                <!-- <a href="javascript:void(0)" class="menu-grid-minor-item menu-item"><span class="menu-grid-minor-item-inner">Social Media</span></a> -->
+                <!-- <a href="javascript:void(0)" class="menu-grid-minor-item menu-item"><span class="menu-grid-minor-item-inner">Marketing Digital</span></a> -->
+              </div>
+            </div>
+          </div>
+          <!-- <div class="menu-grid-item item-4" data-direction="rl">
+            <div class="menu-grid-item-inner">                
+              <a href="javascript:void(0)" class="menu-grid-item-image">
+                <img src="assets/images/jpg/c-16.jpg" alt="Image name" class="image" />
+                <span class="title">View Routes</span>                
+              </a>
+            </div>
+          </div> -->
+          <!-- <div class="menu-grid-item item-4" data-direction="lr">
+            <div class="menu-grid-item-inner">
+              <a href="javascript:void(0)" class="menu-grid-item-image">
+                <img src="assets/images/jpg/c-22.jpg" alt="Image name" class="image" />
+                <span class="title">View Portfolio</span>
+              </a>
+            </div>
+          </div> -->
+          <div class="menu-grid-item item-5" data-direction="tb">
+            <div class="menu-grid-item-inner">
+              <!-- Contacts -->
+              <div class="menu-grid-minor">
+                <a href="tel:+91 9500121167" class="menu-grid-minor-item"><span class="menu-grid-minor-item-inner"><i class="fas fa-mobile-alt icon"></i>(+91) 95001 21167</span></a>
+                <!-- <a href="tel:+19812345678" class="menu-grid-minor-item"><span class="menu-grid-minor-item-inner"><i class="fas fa-phone-alt icon"></i>+1 (98) 1234 5678</span></a> -->
+                <a href="mailto:invest@beejnetwork.com" class="menu-grid-minor-item"><span class="menu-grid-minor-item-inner"><i class="fas fa-envelope icon"></i>invest@beejnetwork.com</span></a>
+                <a href="mailto:funding@beejnetwork.com" class="menu-grid-minor-item"><span class="menu-grid-minor-item-inner"><i class="fas fa-envelope icon"></i>funding@beejnetwork.com</span></a>
+                <div class="menu-grid-icons">
+                  <!-- <a href="javascript:void(0)" class="menu-grid-minor-item"><span class="menu-grid-minor-item-inner"><i class="fab fa-facebook-f icon"></i></span></a> -->
+                  <!-- <a href="javascript:void(0)" class="menu-grid-minor-item"><span class="menu-grid-minor-item-inner"><i class="fab fa-twitter icon"></i></span></a> -->
+                  <a target="_blank" href="https://www.linkedin.com/company/beejnetwork/" class="menu-grid-minor-item"><span class="blue text-color menu-grid-minor-item-inner"><i class="fab fa-linkedin-in icon"></i></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </nav>   
+  </header>
+    
+    <!-- Main -->
+    <main id="main" class="shock-main" data-bg-color="#16161b">
+
+      <!-- Featured -->
+      <section class="shock-section has-holder pt-4 pb-4">
+        <div class="container">
+          <!-- Posts -->
+          <div class="row g-0">
+            <div class="col-12 col-md-7">
+              <div class="card has-full-image is-featured-left small-shadow rounded parent">
+                <!-- Icon -->
+                <div class="sticky-post-icon tertiary">
+                  <i class="fas fa-thumbtack icon white"></i>
+                </div>
+                <!-- Image -->
+                <div class="image-wrapper hover-up-down">
+                  <img src="assets/images/jpg/a-11.jpg" alt="Image name" class="image" />
+                </div>
+                <!-- Body -->
+                <div class="card-body align-v-bottom">
+                  <div class="holder">
+                    <a href="#your-category" class="link">                      
+                      <span class="badge tertiary-50 tertiary-hover">
+                        <span class="badge-text white-75 white-hover">Environment</span>
+                      </span>
+                    </a>
+                    <h3 class="title text-style-9 white">Why design<br> matters to our lives?</h3>
+                    <hr class="gray-25">
+                    <!-- Metadata -->
+                    <div class="card-metadata">
+                      <div class="item">
+                        <a href="#your-link" class="link gray tertiary-hover"><i class="fa-solid fa-user icon"></i>John Young</a>
+                      </div>
+                      <div class="item">
+                        <a href="#your-link" class="link gray tertiary-hover"><i class="fa-solid fa-calendar-days icon"></i>September 12, 2022</a>
+                      </div>
+                      <div class="item">
+                        <a href="#your-link" class="link gray tertiary-hover"><i class="fa-solid fa-comments icon"></i>35 Comments</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Overlay -->
+                  <div class="overlay black"></div>
+                  <!-- Link -->
+                  <a href="#your-link" class="full-link"></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-5">
+              <div class="card has-full-image is-featured-right small-shadow rounded parent">
+                <!-- Image -->
+                <div class="image-wrapper hover-up-down">
+                  <img src="assets/images/jpg/a-15.jpg" alt="Image name" class="image" />
+                </div>
+                <!-- Body -->
+                <div class="card-body align-v-bottom">
+                  <div class="holder">
+                    <a href="#your-category" class="link">                      
+                      <span class="badge tertiary-50 tertiary-hover">
+                        <span class="badge-text white-75 white-hover">Events</span>
+                      </span>
+                    </a>
+                    <h3 class="title text-style-9 white">How to become a<br> successful web designer?</h3>
+                    <hr class="gray-25">
+                    <!-- Metadata -->
+                    <div class="card-metadata">
+                      <div class="item">
+                        <a href="#your-link" class="link gray tertiary-hover"><i class="fa-solid fa-user icon"></i>Laura Garcia</a>
+                      </div>
+                      <div class="item">
+                        <a href="#your-link" class="link gray tertiary-hover"><i class="fa-solid fa-calendar-days icon"></i>September 05, 2022</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Overlay -->
+                  <div class="overlay black"></div>
+                  <!-- Link -->
+                  <a href="#your-link" class="full-link"></a>
+                </div>
+              </div>
+              <div class="card has-full-image is-featured-right small-shadow rounded parent">
+                <!-- Image -->
+                <div class="image-wrapper hover-up-down">
+                  <img src="assets/images/jpg/a-37.jpg" alt="Image name" class="image" />
+                </div>
+                <!-- Body -->
+                <div class="card-body align-v-bottom">
+                  <div class="holder">
+                    <a href="#your-category" class="link">                      
+                      <span class="badge tertiary-50 tertiary-hover">
+                        <span class="badge-text white-75 white-hover">Technology</span>
+                      </span>
+                    </a>
+                    <h3 class="title text-style-9 white">The best WordPress themes according to experts.</h3>
+                    <hr class="gray-25">
+                    <!-- Metadata -->
+                    <div class="card-metadata">
+                      <div class="item">
+                        <a href="#your-link" class="link gray tertiary-hover"><i class="fa-solid fa-user icon"></i>Alice Johnson</a>
+                      </div>
+                      <div class="item">
+                        <a href="#your-link" class="link gray tertiary-hover"><i class="fa-solid fa-calendar-days icon"></i>August 27, 2022</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Overlay -->
+                  <div class="overlay black"></div>
+                  <!-- Link -->
+                  <a href="#your-link" class="full-link"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Scrolling text -->
+      <section class="shock-section pt-2 pb-2">
+        <div class="scrolling-text">
+          <!-- Text -->
+          <div class="text-wrapper mix-blend-lighter">
+            <h2 class="text text-style-1 text-outline gray-50" data-lax="h-left">We provide our art to ensure that human insights work well</h2>
+            <h3 class="text text-style-8 text-italic gray-50" data-lax="h-right">ensure that human insights work well together with technology, brand and business, with a focus on fast and assertive results</h3>
+          </div>    
+        </div>
+      </section>
+
+      <!-- Blog -->
+      <section class="shock-section pt-5 pb-5">
+        <div class="container">
+          <div class="horizontal-tab mb-3 scheme-2 tertiary" data-aos="fade">
+            <!-- Tab navigation -->
+            <ul id="h-tab" class="nav nav-tabs" role="tablist" aria-orientation="horizontal">
+              <li class="nav-item" role="presentation">
+                <button id="h-1-tab" class="nav-link active" aria-selected="true" aria-controls="h-1" data-bs-target="#h-1" data-bs-toggle="tab" role="tab">
+                  Investors
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button id="h-2-tab" class="nav-link" aria-selected="false" aria-controls="h-2" data-bs-target="#h-2" data-bs-toggle="tab" role="tab">
+                  Founders
+                </button>
+              </li>
+             
+            </ul>
+            <!-- Tab content -->
+            <div class="tab-content">
+              <div id="h-1" class="tab-pane fade show active" role="tabpanel">
+                <!-- Posts -->
+                <div class="swiper slider stretched has-gap has-navigation has-pagination scheme-2 tertiary" data-columns="3,2,1,1">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="card has-full-image vh-65 small-shadow rounded parent">
+                        <!-- Icon -->
+                        <div class="sticky-post-icon tertiary">
+                          <i class="fas fa-thumbtack icon white"></i>
+                        </div>
+                        <!-- Image -->
+                        <div class="image-wrapper hover-up-down">
+                          <img src="assets/images/jpg/a-9.jpg" alt="Image name" class="image" />
+                        </div>
+                        <!-- Body -->
+                        <div class="card-body align-v-bottom">
+                          <div class="holder">
+                            <a href="#your-category" class="link">                      
+                              <span class="badge tertiary-50 tertiary-hover">
+                                <span class="badge-text white-75 white-hover">Environment</span>
+                              </span>
+                            </a>
+                            <h3 class="title text-style-9 white">Why design<br> matters to our lives?</h3>
+                            <hr class="gray-25">
+                            <!-- Metadata -->
+                            <div class="card-metadata">
+                              <div class="item">
+                                <a href="#your-link" class="link gray tertiary-hover"><i class="fa-solid fa-user icon"></i>John Young</a>
+                              </div>
+                              <div class="item">
+                                <a href="#your-link" class="link gray tertiary-hover"><i class="fa-solid fa-calendar-days icon"></i>September 12, 2022</a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Overlay -->
+                          <div class="overlay black"></div>
+                          <!-- Link -->
+                          <a href="#your-link" class="full-link"></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="card has-full-image vh-65 small-shadow rounded parent">
+                        <!-- Image -->
+                        <div class="image-wrapper hover-up-down">
+                          <img src="assets/images/jpg/a-7.jpg" alt="Image name" class="image" />
+                        </div>
+                        <!-- Body -->
+                        <div class="card-body align-v-bottom">
+                          <div class="holder">
+                            <a href="#your-category" class="link">                      
+                              <span class="badge tertiary-50 tertiary-hover">
+                                <span class="badge-text white-75 white-hover">Environment</span>
+                              </span>
+                            </a>
+                            <h3 class="title text-style-9 white">How to become a<br> successful web designer?</h3>
+                            <hr class="gray-25">
+                            <!-- Metadata -->
+                            <div class="card-metadata">
+                              <div class="item">
+                                <a href="#your-link" class="link gray tertiary-hover"><i class="fa-solid fa-user icon"></i>Laura Garcia</a>
+                              </div>
+                              <div class="item">
+                                <a href="#your-link" class="link gray tertiary-hover"><i class="fa-solid fa-calendar-days icon"></i>September 05, 2022</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Overlay -->
+                        <div class="overlay black"></div>
+                        <!-- Link -->
+                        <a href="#your-link" class="full-link"></a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="card has-full-image vh-65 small-shadow rounded parent">
+                        <!-- Image -->
+                        <div class="image-wrapper hover-up-down">
+                          <img src="assets/images/jpg/a-15.jpg" alt="Image name" class="image" />
+                        </div>
+                        <!-- Body -->
+                        <div class="card-body align-v-bottom">
+                          <div class="holder">
+                            <a href="#your-category" class="link">                      
+                              <span class="badge tertiary-50 tertiary-hover">
+                                <span class="badge-text white-75 white-hover">Environment</span>
+                              </span>
+                            </a>
+                            <h3 class="title text-style-9 white">The best WordPress themes according to experts.</h3>
+                            <hr class="gray-25">
+                            <!-- Metadata -->
+                            <div class="card-metadata">
+                              <div class="item">
+                                <a href="#your-link" class="link gray tertiary-hover"><i class="fa-solid fa-user icon"></i>Alice Johnson</a>
+                              </div>
+                              <div class="item">
+                                <a href="#your-link" class="link gray tertiary-hover"><i class="fa-solid fa-calendar-days icon"></i>August 27, 2022</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Overlay -->
+                        <div class="overlay black"></div>
+                        <!-- Link -->
+                        <a href="#your-link" class="full-link"></a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="card has-full-image vh-65 small-shadow rounded parent">
+                        <!-- Image -->
+                        <div class="image-wrapper hover-up-down">
+                          <img src="assets/images/jpg/a-14.jpg" alt="Image name" class="image" />
+                        </div>
+                        <!-- Body -->
+                        <div class="card-body align-v-bottom">
+                          <div class="holder">
+                            <a href="#your-category" class="link">                      
+                              <span class="badge tertiary-50 tertiary-hover">
+                                <span class="badge-text white-75 white-hover">Environment</span>
+                              </span>
+                            </a>
+                            <h3 class="title text-style-9 white">The search for digital marketing has increased.</h3>
+                            <hr class="gray-25">
+                            <!-- Metadata -->
+                            <div class="card-metadata">
+                              <div class="item">
+                                <a href="#your-link" class="link gray tertiary-hover"><i class="fa-solid fa-user icon"></i>Kaled Ahmad</a>
+                              </div>
+                              <div class="item">
+                                <a href="#your-link" class="link gray tertiary-hover"><i class="fa-solid fa-calendar-days icon"></i>August 15, 2022</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Overlay -->
+                        <div class="overlay black"></div>
+                        <!-- Link -->
+                        <a href="#your-link" class="full-link"></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+              <div id="h-2" class="tab-pane fade" role="tabpanel">
+                <!-- Posts -->
+                <div class="swiper slider stretched has-gap has-navigation has-pagination scheme-2 tertiary" data-columns="3,2,1,1">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="card has-full-image vh-65 small-shadow rounded parent">
+                        <!-- Image -->
+                        <div class="image-wrapper hover-up-down">
+                          <img src="assets/images/jpg/a-11.jpg" alt="Image name" class="image" />
+                        </div>
+                        <!-- Body -->
+                        <div class="card-body align-v-bottom">
+                          <div class="holder">
+                            <a href="#your-category" class="link">                      
+                              <span class="badge tertiary-50 tertiary-hover">
+                                <span class="badge-text white-75 white-hover">Technology</span>
+                              </span>
+                            </a>
+                            <h3 class="title text-style-9 white">Reading books helps make a person better.</h3>
+                            <hr class="gray-25">
+                            <!-- Metadata -->
+                            <div class="card-metadata">
+                              <div class="item">
+                                <a href="#your-link" class="link gray tertiary-hover"><i class="fa-solid fa-user icon"></i>Dimitri Smirnov</a>
+                              </div>
+                              <div class="item">
+                                <a href="#your-link" class="link gray tertiary-hover"><i class="fa-solid fa-calendar-days icon"></i>August 12, 2022</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Overlay -->
+                        <div class="overlay black"></div>
+                        <!-- Link -->
+                        <a href="#your-link" class="full-link"></a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="card has-full-image vh-65 small-shadow rounded parent">
+                        <!-- Image -->
+                        <div class="image-wrapper hover-up-down">
+                          <img src="assets/images/jpg/a-21.jpg" alt="Image name" class="image" />
+                        </div>
+                        <!-- Body -->
+                        <div class="card-body align-v-bottom">
+                          <div class="holder">
+                            <a href="#your-category" class="link">                      
+                              <span class="badge tertiary-50 tertiary-hover">
+                                <span class="badge-text white-75 white-hover">Technology</span>
+                              </span>
+                            </a>
+                            <h3 class="title text-style-9 white">The president of the company will give a speech.</h3>
+                            <hr class="gray-25">
+                            <!-- Metadata -->
+                            <div class="card-metadata">
+                              <div class="item">
+                                <a href="#your-link" class="link gray tertiary-hover"><i class="fa-solid fa-user icon"></i>John Young</a>
+                              </div>
+                              <div class="item">
+                                <a href="#your-link" class="link gray tertiary-hover"><i class="fa-solid fa-calendar-days icon"></i>April 5, 2022</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Overlay -->
+                        <div class="overlay black"></div>
+                        <!-- Link -->
+                        <a href="#your-link" class="full-link"></a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="card has-full-image vh-65 small-shadow rounded parent">
+                        <!-- Icon -->
+                        <div class="sticky-post-icon tertiary-25">
+                          <i class="fas fa-thumbtack icon tertiary"></i>
+                        </div>
+                        <!-- Image -->
+                        <div class="image-wrapper hover-up-down">
+                          <img src="assets/images/jpg/a-9.jpg" alt="Image name" class="image" />
+                        </div>
+                        <!-- Body -->
+                        <div class="card-body align-v-bottom">
+                          <div class="holder">
+                            <a href="#your-category" class="link">                      
+                              <span class="badge tertiary-50 tertiary-hover">
+                                <span class="badge-text white-75 white-hover">Technology</span>
+                              </span>
+                            </a>
+                            <h3 class="title text-style-9 white">Why design<br> matters to our lives?</h3>
+                            <hr class="gray-25">
+                            <!-- Metadata -->
+                            <div class="card-metadata">
+                              <div class="item">
+                                <a href="#your-link" class="link gray tertiary-hover"><i class="fa-solid fa-user icon"></i>John Young</a>
+                              </div>
+                              <div class="item">
+                                <a href="#your-link" class="link gray tertiary-hover"><i class="fa-solid fa-calendar-days icon"></i>April 5, 2022</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Overlay -->
+                        <div class="overlay black"></div>
+                        <!-- Link -->
+                        <a href="#your-link" class="full-link"></a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="card has-full-image vh-65 small-shadow rounded parent">
+                        <!-- Image -->
+                        <div class="image-wrapper hover-up-down">
+                          <img src="assets/images/jpg/a-7.jpg" alt="Image name" class="image" />
+                        </div>
+                        <!-- Body -->
+                        <div class="card-body align-v-bottom">
+                          <div class="holder">
+                            <a href="#your-category" class="link">                      
+                              <span class="badge tertiary-50 tertiary-hover">
+                                <span class="badge-text white-75 white-hover">Technology</span>
+                              </span>
+                            </a>
+                            <h3 class="title text-style-9 white">How to become a<br> successful web designer?</h3>
+                            <hr class="gray-25">
+                            <!-- Metadata -->
+                            <div class="card-metadata">
+                              <div class="item">
+                                <a href="#your-link" class="link gray tertiary-hover"><i class="fa-solid fa-user icon"></i>John Young</a>
+                              </div>
+                              <div class="item">
+                                <a href="#your-link" class="link gray tertiary-hover"><i class="fa-solid fa-calendar-days icon"></i>April 5, 2022</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Overlay -->
+                        <div class="overlay black"></div>
+                        <!-- Link -->
+                        <a href="#your-link" class="full-link"></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Side Widget -->
+     <div class="side-widget to-left invert-color mix-blend-difference d-only-desktop">
+        <div class="item">
+          <span class="widget label-icons">
+            <!-- <a href="javascript:void(0)" class="link black black-hover"><i class="icon fab fa-facebook-f"></i></a> -->
+            <!-- <a href="javascript:void(0)" class="link black black-hover"><i class="icon fab fa-twitter"></i></a> -->
+            <a target="_blank" href="https://www.linkedin.com/company/beejnetwork/" class="link black black-hover"><i class="icon fab fa-linkedin-in"></i></a>
+            <span class="label-line black"></span>
+          </span>
+        </div>
+      </div>
+
+    <!-- Scroll to Top -->
+    <div class="side-widget to-right invert-color mix-blend-difference">
+      <div class="item align-v-bottom">
+        <a href="#" class="link hover-up">
+          <span class="widget float-icon">
+            <i class="fa-solid fa-arrow-up-long icon"></i>
+          </span>
+        </a>
+      </div>
+    </div>
+
+   <!-- Footer -->
+   <footer id="footer" class="shock-footer scheme-1 tertiary" data-bg-color="#1e1e24">
+    <!-- <div class="top-bar" data-bg-color="#1e1e24"> -->
+    <div class="top-bar" data-bg-color="#f2f2eb">
+      <div class="footer-content focus-trigger">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-2 align-h-left align-v-center order-2 order-lg-1">
+              <div class="footer-item text-center">
+                <!-- Brand -->
+                <a href="/" class="footer-brand ">
+                  <!-- <div class="site-title">Site Title</div> -->
+                  <img src="assets/images/png/logo.png" alt="Shock Theme" class="logo" />
+                  <!-- <span class="logo-after-text">Beej Network</span> -->
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-lg-7 order-1 order-lg-2">
+              <!-- <div class="footer-item text-center">
+                <a href="/" class="footer-brand ">
+                  <img src="assets/images/png/logo.png" alt="Shock Theme" class="logo" />
+                </a>
+              </div> -->
+            </div>
+            <div class="col-12 col-lg-2 align-h-left align-v-center order-3">
+              <div class="footer-item text-center">
+                <!-- Links list -->
+                <ul class="nav-list list-unstyled">
+                  <li class="nav-item">
+                    <a href="tel:+91 9500121167" class="nav-link has-icon">
+                      <img class="image-icon" src="assets/svg/call-sharp.svg" alt="Icon name" data-shock-icon="32" />  
+                      <span class="text fw-bold">(+91) 95001 21167</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-content focus-trigger">
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="footer-item ">
+              <h6 class="title">Get In Touch
+              </h6>
+              <!-- Links list -->
+              <ul class="nav-list list-unstyled">
+                <li class="nav-item">
+                  <a href="/" class="nav-link">
+                    <span class="text">www.beejnetwork.com</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="mailto:invest@beejnetwork.com" class="nav-link">
+                    <span class="text">invest@beejnetwork.com</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="tel:+919500121167" class="nav-link">
+                    <span class="text">+91 9500121167</span>
+                  </a>
+                </li>                  
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+           
+            <div class="footer-item text-center">
+              <h6 class="title">Navigation</h6>
+              <!-- Links list -->
+              <ul class="nav-list list-unstyled">
+                <li class="nav-item">
+                  <a href="./portfolio.html" class="nav-link">
+                    <span class="text">Portfolio</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="./startups.html" class="nav-link">
+                    <span class="text">Apply Now</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="./investor.html" class="nav-link">
+                    <span class="text">Investors</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="./about_us.html" class="nav-link">
+                    <span class="text">About Us</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="./contact_us.html" class="nav-link">
+                    <span class="text">Contact Us</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="footer-item text-center">
+              <h6 class="title">Terms & Conditions</h6>
+              <!-- Links list -->
+              <ul class="nav-list list-unstyled">
+                <li class="nav-item">
+                  <a href="./terms_of_use.html" class="nav-link">
+                    <span class="text">Terms Of Use</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="./privacy_policy.html" class="nav-link">
+                    <span class="text">Privacy Policy</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="./refund_policy.html" class="nav-link">
+                    <span class="text">Refund Policy</span>
+                  </a>
+                </li>
+               
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-bar" data-bg-color="#1e1e24">
+      <div class="text">Beej Network © 2023 - All rights reserved. This website is developed and maintained by <a href="https://rohcodes.com" class="link gray primary-hover"><u>Rohcodes</u></a>.</div>
+    </div>
+  </footer>
+    
+    <!-- Cursor -->
+    <!-- <svg class="cursor-effect tertiary" width="220" height="220" viewBox="0 0 220 220">
+      <defs>
+        <filter id="cursor-effect-filter" x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox">
+          <feTurbulence type="fractalNoise" baseFrequency="0" numOctaves="1" result="warp"></feTurbulence>
+          <feOffset dx="-30" result="warpOffset"></feOffset>
+          <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="20" in="SourceGraphic" in2="warpOffset"></feDisplacementMap>
+        </filter>
+      </defs>
+      <circle class="cursor-effect-inner" cx="110" cy="110" r="20"></circle>
+    </svg> -->
+
+    <!-- Vendor JavaScript -->
+    <script src="assets/js/vendor/jquery.min.js"></script>
+    <script src="assets/js/vendor/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/vendor/preloader.min.js"></script>
+    <script src="assets/js/vendor/inview.min.js"></script>
+    <script src="assets/js/vendor/menu-engine.min.js"></script>
+    <script src="assets/js/vendor/menu-grid.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/swiper.min.js"></script>
+    <script src="assets/js/vendor/anime.min.js"></script>
+    <script src="assets/js/vendor/dynamic-slider.min.js"></script>
+    <script src="assets/js/vendor/shuffle.min.js"></script>
+    <script src="assets/js/vendor/stickybits.min.js"></script>
+    <script src="assets/js/vendor/bricklayer.min.js"></script>
+    <script src="assets/js/vendor/lightbox.min.js"></script>
+    <script src="assets/js/vendor/typed.min.js"></script>
+    <script src="assets/js/vendor/progressbar.min.js"></script>
+    <script src="assets/js/vendor/map-styles.min.js"></script>
+    <script src="assets/js/vendor/.min.js"></script>
+    <script src="assets/js/vendor/gsap.min.js"></script>
+    <script src="assets/js/vendor/aos.min.js"></script>
+    <script src="assets/js/vendor/lax.min.js"></script>
+    <script src="assets/js/vendor/cursor-effect.min.js"></script>
+
+    <!-- Main JavaScript -->
+    <script src="assets/js/main.js"></script>
+
+  </body>
+</html>
