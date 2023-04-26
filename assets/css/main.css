@@ -5346,3 +5346,9 @@ transform: rotateZ(180deg);
 .dropdown-custom:hover .dropdown-custom-content {
   display: block;
 }
+
+@media(max-width: 767px){
+  .banner-metadata{
+    display: none;
+  }
+}
