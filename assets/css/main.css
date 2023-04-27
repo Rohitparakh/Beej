@@ -5250,6 +5250,9 @@ a:hover {
 .vh-20{
   height: 20vh !important;
 }
+.vh-45{
+  height: 45vh !important;
+}
 
 @media (max-width: 767px) {
   .vh-65-sm {
