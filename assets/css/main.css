@@ -5355,3 +5355,18 @@ transform: rotateZ(180deg);
     display: none;
   }
 }
+
+@media(max-width:991px){
+  .menu-grid .menu-grid-item.item-2, .menu-grid .menu-grid-item.item-3, .menu-grid .menu-grid-item.item-4, .menu-grid .menu-grid-item.item-5{
+    display: block !important;
+  }
+
+  nav#menu-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100vh 50vh 50vh;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    overflow: scroll;
+  }
+}
