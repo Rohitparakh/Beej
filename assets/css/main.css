@@ -5371,3 +5371,22 @@ transform: rotateZ(180deg);
     overflow: scroll;
   }
 }
+
+.vh-90{
+  height:90vh !important;
+}
+.vh-85{
+  height: 85vh !important;
+}
+
+@media(max-width:767px){
+  .vh-85-sm{
+    height: 85vh !important;
+  }  
+}
+
+@media(min-width:768px){
+  .vh-80-lg{
+    height: 80vh !important;
+  }
+}
