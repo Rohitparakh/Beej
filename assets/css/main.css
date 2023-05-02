@@ -4638,7 +4638,8 @@ table {
 
 .scroll-down {
   position: relative;
-  top: 100px;
+  /* top: 100px; */
+  top: 30px;
   right: -30px;
   height: 45px;
   width: 27px;
