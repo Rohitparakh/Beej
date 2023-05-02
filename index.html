@@ -2239,7 +2239,15 @@
 
   <!-- Main JavaScript -->
   <script src="assets/js/main.js"></script>
+<script>
+  let navbar=document.querySelector("#navbar")
+let main=document.querySelector("#main")
+if(screen.width<=767){
+	main.style.paddingTop=navbar.offsetHeight+"px";
+}
 
+
+</script>
 </body>
 
 </html>
